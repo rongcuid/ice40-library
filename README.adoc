@@ -11,3 +11,24 @@ Example components are:
 - FIFO's
 - Memory
 - Cache controller
+
+== File structure
+
+The source tree is divided into `small`, `medium`, and `fast` architecture.
+
+The `small` architecture aims to take up as few cells as possible.
+It will also try to fit in regular structure to minimize routing cost.
+These designs will pass timing for `16MHz`.
+They should be able to integrate niecely in a larger system at `12MHz`.
+
+The `medium` architecture aims to be simple to understand, while not specifically designed to be fast or small.
+These designs will pass timing for `36MHz`. 
+They should be able to integrate in a larger system at `24MHz`.
+
+The `fast` architecture aims to push the iCE40 to the absolute limit.
+As many pipelines and resources are used as possible to gain the highest performance.
+DSP's may also be declared using primitives.
+These designs will pass timing for `50MHz`.
+They should, hopefully, be able to integrate in a larger system at `48MHz`.
+
+There are also some debugging resources in the `common` folder.
