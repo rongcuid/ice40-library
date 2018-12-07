@@ -1,0 +1,13 @@
+= MadScientistCarl's Yosys iCE40 Library
+Rongcui Dong
+
+This repository will hold various iCE40 design building blocks.
+They will be formally verified and simulated with Verilator.
+In addition, I will try to optimize these for either area or latency.
+Most of these designs will be parameterized.
+
+Example components are:
+
+- FIFO's
+- Memory
+- Cache controller
