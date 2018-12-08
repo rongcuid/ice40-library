@@ -10,3 +10,7 @@ A very simple blinking module which tests basic board functionality.
 This module blinks the Upduino 2 board's RGB LED in green. 
 When running on 48MHz HFOSC, the LED blinks at \~0.5Hz.
 
+== Verification
+
+Basic verification of counter behavior. 
+Used as sanity check of verification tool.
