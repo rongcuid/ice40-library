@@ -1,0 +1,12 @@
+*~
+~*
+*.swp
+\#*\#
+obj_dir/
+*.o
+a.out
+bin/
+*.log
+*.bin
+*.asc
+*.json
