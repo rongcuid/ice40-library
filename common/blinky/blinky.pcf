@@ -1,0 +1,3 @@
+#set_io o_ledR 41
+set_io o_ledG 39
+#set_io o_ledB 40

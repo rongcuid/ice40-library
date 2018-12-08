@@ -1,0 +1,1 @@
+synth_ice40 -abc2 -json blinky.json -top blinky_top
