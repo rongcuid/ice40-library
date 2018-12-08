@@ -10,3 +10,4 @@ bin/
 *.bin
 *.asc
 *.json
+*.smt2

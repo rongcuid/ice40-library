@@ -1,0 +1,3 @@
+read_verilog -formal blinky.v
+prep -top blinky -nordff
+write_smt2 blinky.smt2
